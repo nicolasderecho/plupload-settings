@@ -27,10 +27,10 @@ And the script will set up the default values for plupload requests.
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>MyTitle</title>
         <%= favicon_link_tag 'favicon.ico' %>
+        <%= render partial: "layouts/plupload" %>
         <%= stylesheet_link_tag    'application', media: 'all' %>
         <%= javascript_include_tag 'application'%>
         <%= csrf_meta_tags %>
-        <%= render partial: "layouts/plupload" %>
         <!-- Specific head -->
         <%= yield(:head) %> 
     </head>
