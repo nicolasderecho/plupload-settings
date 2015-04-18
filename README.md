@@ -15,7 +15,7 @@ This is a very simple script created to be used in rails apps, but it could work
 </head>
 ```
 
-And the script will set up the default values for plupload requests.
+And the script will set up the default values for plupload requests. No need to specify authencity token in every request!!!!
 
 ###Example in Rails
 
